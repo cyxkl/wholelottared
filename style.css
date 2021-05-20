@@ -3,11 +3,20 @@ h1 {
   justify-content: center;
 }
 
-{
-    height: 21px;
-    margin: 21px;
-    position: absolute;
-    top: 21px;
-    left: 21px;
-    border: black solid 21px;
+p {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: solid black 13px;
+    padding: 13px;
+}
+
+p1 {
+    background-color: white;
+    color: red;
+    display: flex;
+    justify-content: center;
+    border: solid black 21px;
+    padding: 21px;
 }
