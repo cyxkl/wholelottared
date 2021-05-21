@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 h1 {
   color: red;
   display: flex;
@@ -38,4 +42,8 @@ p3 {
   justify-content: center;
   border: solid black 10px;
   padding: 121px;
+}
+
+img {
+  width: 70px;
 }

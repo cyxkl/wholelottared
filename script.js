@@ -21,7 +21,8 @@ $(".search-button").click(function() {
         })
         .then(function(songData) {
             console.log(songData);
-        $(".name").html(songData.user[]);
+        $(".name").html(songData[0].title);
+        $(".artist").html(songData[0].user.username);
         
         });
 });
