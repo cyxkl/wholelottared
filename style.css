@@ -1,47 +1,41 @@
-body {
-    background: url("") fixed;
-    text-align: center;
-}
-
 h1 {
-  color:red;
+  color: red;
   display: flex;
   justify-content: center;
 }
 
 p {
-    background-color: red;
-    color: white;
-    display: flex;
-    justify-content: center;
-    border: solid black 13px;
-    padding: 13px;
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  border: solid black 13px;
+  padding: 13px;
 }
 
 p1 {
-    background-color: red;
-    color: white;
-    display: flex;
-    justify-content: center;
-    border: solid black 13px;
-    padding: 13px;
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  border: solid black 13px;
+  padding: 13px;
 }
 
 p2 {
-    background-color: white;
-    color: red;
-    display: flex;
-    justify-content: center;
-    border: solid black 21px;
-    padding: 21px;
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  border: solid black 21px;
+  padding: 21px;
 }
 
 p3 {
-    background-color: red;
-    color: red;
-    display: flex;
-    justify-content: center;
-    border: solid black 10px;
-    padding: 110px;
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  border: solid black 10px;
+  padding: 121px;
 }
-

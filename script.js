@@ -1,4 +1,4 @@
-<script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+/*<script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
 <script>
 SC.initialize({
   client_id: 'YOUR_CLIENT_ID'
@@ -8,7 +8,7 @@ var track_url = 'https://soundcloud.com/forss/flickermood';
 SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
   console.log('oEmbed response: ', oEmbed);
 });
-</script>
+</script>*/
 
 $(".search-button").click(function() {
   let input = $(".search-term").val();
@@ -21,6 +21,7 @@ $(".search-button").click(function() {
         })
         .then(function(songData) {
             console.log(songData);
+        $(".name").html(songData.user[]);
         
         });
 });
