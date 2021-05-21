@@ -27,7 +27,7 @@ $(".search-button").click(function() {
       let ranSng = Math.floor(Math.random() * songData.length);
       $(".name").html(songData[ranSng].title);
       $(".artist").html(songData[ranSng].user.username);
-      $(".song-input").html();
+      $(".song-input").html(`<img src="${songData[ranSng].artwork_url}">`);
     });
 });
 

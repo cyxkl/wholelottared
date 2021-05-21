@@ -41,6 +41,16 @@ p2 {
   display: flex;
   justify-content: center;
   border: solid black 10px;
+  padding: 120px;
+  font-family: "Supermercado One", cursive;
+}
+
+p3{
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  border: solid black 10px;
   padding: 121px;
   font-family: "Supermercado One", cursive;
 }
