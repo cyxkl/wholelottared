@@ -12,23 +12,27 @@ SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
 
 $(".search-button").click(function() {
   let input = $(".search-term").val();
-  let url = "https://api.soundcloud.com/tracks?q=" + input +"&client_id=5aa8e389ba4e24b6106af5159ab3e344"
+  let url =
+    "https://api.soundcloud.com/tracks?q=" +
+    input +
+    "&client_id=5aa8e389ba4e24b6106af5159ab3e344";
   console.log(input);
 
-      fetch(url)
-        .then(function(response) {
-            return response.json();
-        })
-        .then(function(songData) {
-            console.log(songData);
-        $(".name").html(songData[0].title);
-        $(".artist").html(songData[0].user.username);
-        
-        });
+  fetch(url)
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(songData) {
+      console.log(songData);
+      let ranSng = Math.floor(Math.random() * songData.length);
+      $(".name").html(songData[ranSng].title);
+      $(".artist").html(songData[ranSng].user.username);
+      $(".song-input").html();
+    });
 });
 
 $(".search-term").keyup(function(event) {
-  if(event.keyCode === 13) {
+  if (event.keyCode === 13) {
     $(".search-button").click();
   }
 });

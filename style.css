@@ -1,11 +1,18 @@
 body {
   background-color: black;
+  text-align: center;
 }
 
 h1 {
   color: red;
   display: flex;
   justify-content: center;
+  font-family: "Supermercado One", cursive;
+}
+
+input,
+button {
+  font-family: "Supermercado One", cursive;
 }
 
 p {
@@ -15,6 +22,7 @@ p {
   justify-content: center;
   border: solid black 13px;
   padding: 13px;
+  font-family: "Supermercado One", cursive;
 }
 
 p1 {
@@ -24,6 +32,7 @@ p1 {
   justify-content: center;
   border: solid black 13px;
   padding: 13px;
+  font-family: "Supermercado One", cursive;
 }
 
 p2 {
@@ -31,19 +40,11 @@ p2 {
   color: black;
   display: flex;
   justify-content: center;
-  border: solid black 21px;
-  padding: 21px;
-}
-
-p3 {
-  background-color: red;
-  color: black;
-  display: flex;
-  justify-content: center;
   border: solid black 10px;
   padding: 121px;
+  font-family: "Supermercado One", cursive;
 }
 
 img {
-  width: 70px;
+  width: 121px;
 }
