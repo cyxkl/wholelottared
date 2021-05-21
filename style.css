@@ -1,5 +1,5 @@
 body {
-    background: url("https://upload.wikimedia.org/wikipedia/en/6/6c/Playboi_Carti_-_Whole_Lotta_Red.png");
+    background: url("") fixed;
     text-align: center;
 }
 
@@ -42,6 +42,6 @@ p3 {
     display: flex;
     justify-content: center;
     border: solid black 10px;
-    padding: 100px;
+    padding: 110px;
 }
 

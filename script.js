@@ -21,6 +21,7 @@ $(".search-button").click(function() {
         })
         .then(function(songData) {
             console.log(songData);
+        
         });
 });
 
